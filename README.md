@@ -1,6 +1,6 @@
-# eslint-config-styleguide
+# eslint-config-styling
 
-ESLint styleguide config
+ESLint styleguide configuration
 
 ## Installation
 
@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-config-styleguide`:
+Next, install `eslint-config-styling`:
 
 ```sh
-npm install eslint-config-styleguide --save-dev
+npm install eslint-config-styling --save-dev
 ```
 
 ## Usage
 
-Add `styleguide` to the extends section of your `.eslintrc` configuration file.
+Add `eslint-config-styling` to the extends section of your `.eslintrc` configuration file.
 
 ```json
 {
     "extends": [
-        "eslint-config-styleguide"
+        "eslint-config-styling"
     ]
 }
 ```

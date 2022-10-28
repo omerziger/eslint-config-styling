@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-styleguide",
+  "name": "eslint-config-styling",
   "version": "1.0.0",
-  "description": "ESLint styleguide config",
+  "description": "ESLint styleguide configuration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
