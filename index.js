@@ -39,9 +39,8 @@ module.exports = {
         'switch-colon-spacing': 'error',
 
         //Indentation
-        'indent': ['error', 2, {
+        'indent': ['error', 4, {
             'SwitchCase': 1,
-            'outerIIFEBody': 4,
             'MemberExpression': 0,
             'FunctionDeclaration': { 'parameters': 'first', },
             'FunctionExpression': { 'parameters': 'first', },
