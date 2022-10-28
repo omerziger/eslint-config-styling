@@ -69,7 +69,6 @@ module.exports = {
 
         //Arrow Functions
         'arrow-parens': ['error', 'as-needed',],
-        'implicit-arrow-linebreak': 'error',
 
         //Braces
         'brace-style': ['error', 'stroustrup',],
