@@ -73,11 +73,7 @@ module.exports = {
         'brace-style': ['error', 'stroustrup',],
 
         //Commas
-        'comma-dangle': ['error', {
-            'arrays': 'always',
-            'objects': 'always',
-            'functions': 'never',
-        },],
+        'comma-dangle': ['error', 'always-multiline'],
         'comma-style': ['error', 'last',],
     }
 }
