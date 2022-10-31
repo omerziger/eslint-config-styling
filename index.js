@@ -16,6 +16,8 @@ module.exports = {
                 'ImportDeclaration': true,
             },
         },],
+        'multiline-ternary': [ 'error', 'always-multiline' ],
+        'operator-linebreak': [ 'error', 'before' ],
         'eol-last': ['error', 'always',], //Empty line at the end of files (for scripts)
 
         //Spacing
