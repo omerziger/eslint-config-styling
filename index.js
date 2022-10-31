@@ -19,7 +19,7 @@ module.exports = {
         'eol-last': ['error', 'always',], //Empty line at the end of files (for scripts)
 
         //Spacing
-        'array-bracket-spacing': ['error', 'always', { 'singleValue': false, },],
+        'array-bracket-spacing': ['error', 'always'],
         'arrow-spacing': 'error',
         'comma-spacing': 'error',
         'block-spacing': 'error',
