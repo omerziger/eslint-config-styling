@@ -48,18 +48,14 @@ module.exports = {
             'ignoreComments': true,
         },],
 
+        //Newlines
+        'object-curly-newline': ['error', { 'multiline': true, },],
+        'array-element-newline': ['error', { 'minItems': 4, 'multiline': true},],
+        'function-paren-newline': 'error',
+
         //Quotes
         'quotes': ['error', 'single',],
         'jsx-quotes': ['error', 'prefer-single',],
-
-        //Objects
-        'object-curly-newline': ['error', { 'multiline': true, },],
-
-        //Arrays
-        'array-element-newline': ['error', { 'minItems': 4, },],
-
-        //Functions
-        'function-paren-newline': 'error',
 
         //Arrow Functions
         'arrow-parens': ['error', 'as-needed',],
