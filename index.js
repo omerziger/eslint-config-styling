@@ -5,13 +5,6 @@ module.exports = {
         'no-extra-parens': 'error',
         'semi': ['error', 'never',],
         'nonblock-statement-body-position': 'error',
-        'max-len': ['error', {
-            'code': 140,
-            'tabWidth': 2,
-            'comments': 140,
-            'ignoreUrls': true,
-            'ignoreRegExpLiterals': true,
-        },],
         'no-tabs': 'error',
         'no-trailing-spaces': 'error',
         'max-statements-per-line': ['error', { 'max': 1, },],
