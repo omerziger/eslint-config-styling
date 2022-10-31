@@ -61,7 +61,7 @@ module.exports = {
         'arrow-parens': ['error', 'as-needed',],
 
         //Braces
-        'brace-style': ['error', 'stroustrup',],
+        'brace-style': ['error', '1tbs',],
 
         //Commas
         'comma-dangle': ['error', 'always-multiline'],
